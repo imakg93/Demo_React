@@ -1,0 +1,18 @@
+.RootAncillary {
+    flex-grow: 1;
+}
+
+.AppBar {
+    box-shadow: none !important;
+}
+
+.Selected {
+    background-color: #7272a791 !important;
+    border-radius: 4px !important;
+    margin-left: 5px !important;
+}
+.NotSelected {
+    background-color: rgba(214, 213, 231, 0.712) !important;
+    border-radius: 4px !important;
+    margin-left: 5px !important;
+}

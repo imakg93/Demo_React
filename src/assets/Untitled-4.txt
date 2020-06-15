@@ -1,0 +1,20 @@
+var result = allList.map((num, index)=> {
+    var age = Math.floor(Math.random()*40);
+    var genderdesicion = Math.floor(Math.random() * Math.floor(4));
+    return {
+        id: "PO898"+ (("00"+index).slice(-3)),
+        firstName: firstName[index],
+        lastName: lastName[index],
+        name: fullPassenger[index],
+        Gender: (genderdesicion % 3 === 0 ? 'Female' : 'Male'),
+        DOB: new Date(31536000000 * age).toLocaleDateString(),
+        age: age,
+        isCheckedIn: false,
+        seatNo: '',
+        Meals: '',
+        wifi: false,
+        checkinBag: '',
+        cabinBag: '',
+        wheelChair: false
+    }
+});

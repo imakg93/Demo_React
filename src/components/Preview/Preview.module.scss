@@ -1,0 +1,34 @@
+.Paper {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 400px;
+}
+
+.Grid{
+    margin: 0 !important;
+}
+
+// @media (min-width: 500px) {
+//     .Paper {
+//         padding: 5px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         color: black;
+//         height: 200px;
+//     }
+// }
+
+// @media (max-height: 375px) {
+//     .Paper {
+//         padding: 5px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         color: black;
+//         height: 75px;
+//     }
+// }

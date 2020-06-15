@@ -1,0 +1,22 @@
+.Button {
+    margin: 3px !important;
+    min-width: 44px !important;
+    padding: 0 !important;
+}
+
+.Center {
+    margin-left: 14px;
+}
+
+.SeatIcon {
+    width: 0.8em !important;
+}
+
+@media (min-width: 500px) {
+    .Center {
+        margin-left: 25px;
+    }
+    // .Button {
+    //     transform: rotate(-45deg);
+    // }
+}

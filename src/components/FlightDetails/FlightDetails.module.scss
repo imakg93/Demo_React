@@ -1,0 +1,45 @@
+.Paper {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7272a791 !important;
+    // color: black;
+    height: 150px;
+}
+
+.Grid{
+    margin: 0 !important;
+    div, span {
+        font-size: large;
+        font-weight: bold;
+    }
+    span{
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 400px) {
+    .Grid{
+        margin: 0 !important;
+        div, span {
+            font-size: small;
+            font-weight: bold;
+        }
+        span{
+            font-weight: 100;
+        }
+    }
+}
+
+// @media (max-height: 375px) {
+//     .Paper {
+//         padding: 5px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         background-color: #7272a791 !important;
+//         // color: black;
+//         height: 75px;
+//     }
+// }

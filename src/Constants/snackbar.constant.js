@@ -1,0 +1,1 @@
+export const SNACK_CONFIG = { vertical: 'top', horizontal: 'center' };

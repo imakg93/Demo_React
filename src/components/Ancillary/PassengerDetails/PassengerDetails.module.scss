@@ -1,0 +1,20 @@
+.CardHeader {
+    text-align: left;
+    margin-top: 0px;
+}
+
+.FormSpacing {
+    padding: 6px !important;
+    h4{
+        word-break: break-word;
+    }
+}
+
+.Paper {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 150px;
+}

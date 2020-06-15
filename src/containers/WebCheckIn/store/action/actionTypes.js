@@ -1,0 +1,7 @@
+export const SET_STATE = 'SET_STATE';
+export const FILTER_PASSENGERS = 'FILTER_PASSENGERS';
+export const SELECT_PASSENGER = 'SELECT_PASSENGER';
+export const SELECT_SEAT = 'SELECT_SEAT';
+export const SEAT_UPDATE = 'SEAT_UPDATE';
+export const UPDATE_SELECTED = 'UPDATE_SELECTED';
+export const ON_SUBMIT = 'ON_SUBMIT';

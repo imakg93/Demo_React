@@ -1,0 +1,17 @@
+.RootList {
+    padding-top: 0 !important;
+    .LinkDecoration {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.54);
+        .DrawerItems {
+            padding: 16px !important;
+        }        
+    }
+    .ActiveLinkDecoration {
+        .DrawerItems {
+            background-color: #7272a791;
+            padding: 16px !important;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.SearchFlight {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TypeAhead {
+    min-width: 230px;
+    max-width: 300px;
+    input {
+        text-transform: uppercase;
+    }
+}
+
+.SearchButton {
+    height: 56px !important;
+    margin-left: 10px !important;
+}
+

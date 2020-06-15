@@ -1,0 +1,17 @@
+.Root {
+    display: flex;
+    .List {
+        width: 200px;
+    }
+    .Content {
+        flex-grow: 1;
+    }
+    
+}
+
+.User{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.54);
+}
